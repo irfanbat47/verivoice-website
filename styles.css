@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: #007aff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features, .use-cases, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2, .use-cases h2, .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.feature, .use-case {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Impact Section */
+.impact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.impact h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.impact-metric {
+    margin-bottom: 30px;
+}
+
+.impact-metric h3 {
+    font-size: 1.5rem;
+    color: #007aff; /* Blue color for both percentages and headers */
+}
+
+.impact-metric p {
+    font-size: 1rem;
+    color: #777; /* Slightly lighter neutral color */
+}
