@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -35,6 +31,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding: 0;
 }
 
 nav ul li a {
@@ -168,5 +165,37 @@ footer {
 
     .impact-metric p {
         font-size: 1.4rem;
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .features h2, .use-cases h2, .impact h2, .contact h2 {
+        font-size: 1.5rem;
+    }
+
+    .impact-metric h3 {
+        font-size: 1.2rem;
+    }
+
+    .impact-metric p {
+        font-size: 1rem;
     }
 }
